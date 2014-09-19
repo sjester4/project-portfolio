@@ -1,0 +1,20 @@
+<head> 
+        header{
+            border-bottom-style: solid;
+            border-bottom-width: 2px;
+        }
+        body{
+            background: antiquewhite;
+            font-family: Arial; 
+        }
+        h1{
+            color: forestgreen;
+            font-family: cursive;
+        }
+        h2{
+            text-align: center;
+            color: lightcoral;
+            font-family: cursive;
+        }
+
+</head>
