@@ -15,8 +15,18 @@ h1 {
 }
 
 
-div{
+.color1{
+    width: 200px;
+    height: 200px;
+    background-color: #d49e99;
+}
+.color2{
     width: 200px;
     height: 200px;
     background-color: #b23f73;
+}
+.color3{
+    width: 200px;
+    height: 200px;
+    background-color: #48647c;
 }
