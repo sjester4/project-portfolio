@@ -6,7 +6,19 @@ Dark Pink - #b23f73
 Grey Blue - #48647c
 */
 
-
+header{
+   background-color: #dddddd;
+    width: 800px; 
+    margin-left: auto;
+    margin-right: auto;
+        
+}
+header h1{
+    text-align: center;
+}
+header h2{
+    text-align: center;
+}
 a {
     color: #b23f73;
 }
@@ -21,12 +33,12 @@ h1 {
     background-color: #d49e99;
 }
 .color2{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     background-color: #b23f73;
 }
 .color3{
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     background-color: #48647c;
 }
