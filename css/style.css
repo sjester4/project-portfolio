@@ -5,6 +5,7 @@ Light Pink - #d49e99
 Dark Pink - #b23f73
 Grey Blue - #48647c
 */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,cyrillic-ext);
 
 header{
    background-color: #dddddd;
@@ -22,8 +23,12 @@ header h2{
 a {
     color: #b23f73;
 }
+body{
+    font-family: tahoma; 
+}
 h1 {
     color: #b23f73;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 .colorwrapper{
     background-color: green;
@@ -42,6 +47,17 @@ h1 {
 .color3{
     background-color: #48647c;
 }
+.site-footer a{
+    font-size: 2em;
+    color: green;
+}
+.site-footer a:hover{
+    color: purple;
+}
+
+
+
+
 .clearfix:before,
 .clearfix:after {
     content:" ";
