@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster+Two);
 
 body{
-    background-image: url('../images/swirl_pattern/swirl_pattern.png');
+    background-image: url('../images/wild_flowers.png');
     font-family: Lobster Two;
 }
 header{
@@ -13,7 +13,7 @@ header{
     margin-right: auto;
 }
 h1{
-          color: maroon;
+          color: #780A3F;
           text-align: center; 
     }
 p{
@@ -22,21 +22,25 @@ p{
 }
 h2{
            text-align: left;
-           color: grey;
+           color: #D98C66;
     }
 li{
     font-family: cursive;
 }
 h3{
-           color: teal;
+           color: #00B0B8;
            text-align: left; 
+}
+h4{
+    float: right;
+    color: #5E806A
 }
 
 
 .clearfix:before,
 .clearfix:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
+  content: " "; 
+  display: table; 
 }
 
 .clearfix:after {
