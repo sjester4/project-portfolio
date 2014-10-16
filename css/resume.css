@@ -1,0 +1,44 @@
+
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two);
+
+body{
+    background-image: url('../images/swirl_pattern/swirl_pattern.png');
+    font-family: Lobster Two;
+}
+header{
+    text-align: center;
+    background-color: #dddddd;
+    width: 800px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+          color: maroon;
+          text-align: center; 
+    }
+p{
+    font-family: cursive;
+    font-size: 1em;
+}
+h2{
+           text-align: left;
+           color: grey;
+    }
+li{
+    font-family: cursive;
+}
+h3{
+           color: teal;
+           text-align: left; 
+}
+
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
