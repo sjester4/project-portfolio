@@ -1,0 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+
+body{
+    text-align: center;
+    font-size: 30px;
+    background-image: url('../images/climate-cold-glacier-2969.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    font-size: 4em;
+    font-family: Gloria Hallelujah;
+}
