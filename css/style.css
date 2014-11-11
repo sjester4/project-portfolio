@@ -15,12 +15,18 @@ Grey Blue - #48647c
     float: left;
     border: 4px solid purple;
     margin: 2%;
+    background-color: white;
 }
 .sidebar{
     width: 30%;
     float: left;
     border: 4px solid purple;
     margin: 2%;
+    background-color: white;
+}
+.site-footer{
+    border: 4px solid purple;
+    background-color: white;
 }
 header{
     margin-left: auto;
@@ -48,6 +54,7 @@ h3{
 body{
     font-family: Nunito;
     font-size: 1.5em; 
+    background-image: url(../images/subtle_white_mini_waves/subtle_white_mini_waves.png);
 }
 ul{
     list-style: none;
