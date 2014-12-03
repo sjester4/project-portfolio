@@ -30,19 +30,23 @@ Grey Blue - #48647c
 }
 header{
     margin-left: auto;
-    margin-right: auto;      
+    margin-right: auto;   
+    background-color: grey;
 }
 header h1{
     text-align: left;
+    padding: 5px;
 }
 header h2{
     text-align: left;
+    padding; 5px;
 }
 a {
     color: #b23f73;
 }
 h2{
     font-family: Josefin Sans; 
+    padding; 5px;
 }
 h1 {
     color: #b23f73;
@@ -50,6 +54,7 @@ h1 {
 }
 h3{
     font-family: Dosis; 
+    padding: 6px;
 }
 body{
     font-family: Nunito;
@@ -58,10 +63,10 @@ body{
 }
 ul{
     list-style: none;
-    padding: 0px;
+    padding: 5px;
 }
 li{
-    padding: 4px; 
+    padding: 6px; 
 }
 .colorsquare{
     width: 100px;
@@ -84,8 +89,6 @@ li{
 .site-footer a:hover{
     color: purple;
 }
-
-
 
 
 .clearfix:before,
