@@ -1,0 +1,114 @@
+/* =======================================
+    style.css
+    use this file for your custom styles
+========================================== */
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(http://fonts.googleapis.com/css?family=Abel);
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+/* use a box model that makes sense */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* set the default color, font-size, and line height */
+html {
+  color: #333;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* make images and embedded media fluid */
+img,
+object {
+  max-width: 100%;
+}
+
+/* type hierarchy- change for your project */
+header{
+    border: 5px solid pink;
+}
+h1 {
+  font-size: 3em; /* 48px */
+  font-family: "Dancing Script";
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.25em; /* 36px */
+  font-family: "Dancing Script";
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.75em; /* 28px */
+  font-family: "Oxygen";
+}
+
+h4 {
+  font-size: 1.125em; /*18px */
+}
+li{
+    font-family: "Abel";
+}
+body{
+    background-image: url(../images/contemporary_china_2/contemporary_china_2.png);
+}
+/* =======================================
+    author styles
+    place your custom styles below here
+========================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =======================================
+    helper classes
+    keep this at the bottom
+========================================== */
+
+/*
+ * Clearfix: contain floats
+ *
+ * from HTML5 Boilerplate
+ * shttps://github.com/h5bp/html5-boilerplate/blob/master/css/main.css
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
