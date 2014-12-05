@@ -68,6 +68,10 @@ ul{
 li{
     padding: 6px; 
 }
+.footer-icon{
+    display: inline;
+    padding: 10px 10px 10px 10px;
+}
 .colorsquare{
     width: 100px;
     height: 100px;
